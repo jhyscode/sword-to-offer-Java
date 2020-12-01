@@ -25,7 +25,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] array = {2,2,2,0,1};
+        int[] array = {3,4,5,1,2};
         System.out.println(minArray(array));
     }
 }
