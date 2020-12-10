@@ -6,7 +6,7 @@ package com.offer._16;
  * @Description ：
  */
 public class Solution {
-    public double myPow(double x, int n) {
+    public static  double myPow(double x, int n) {
         //特判
         if(x == 0){
             return 0;
@@ -27,4 +27,7 @@ public class Solution {
         return res;
     }
 
+    public static void main(String[] args) {
+        myPow(3,5);
+    }
 }
